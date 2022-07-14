@@ -1,0 +1,156 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 13, 2022, 8:09:35 PM
+    Author     : jimmy
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(66, 66, 66);
+}
+#tickets{
+    color: #1fc175;
+}
+#tickets:hover{
+    color: #06b463;
+}
+#tickets:focus{
+    color: #00f985;
+}
+#menuLink{
+    color: #bbb;
+}
+#menuLink:hover{
+    color: #fff;
+}
+#menuLink:focus{
+    color: #fff;
+}
+.card-img{
+    opacity: .7;
+}
+.white-button{
+    padding: .5rem .8rem;
+    border-radius: .3rem;
+    background: inherit;
+    color: #fff;
+    border: solid 1px #fff;
+}
+.white-button:hover{
+    color: #000;
+    background: #fff;
+}
+.green-button{
+    padding: .5rem .8rem;
+    border-radius: .3rem;
+    color: #fff;
+    background: #8fc453;
+    border: none;
+}
+.green-button:hover{
+    background: #76c021;
+}
+.speakers-container{
+    background: #fff;
+    padding: 1rem 5rem;
+}
+#react{
+    background: #09f;
+}
+.card img{
+    height: 100%;
+}
+#events{
+    background: #333;
+}
+.form-container{
+    background: #fff;
+}
+.form-container form{
+    width: 70%;
+}
+textarea{
+    resize: none; 
+    width: 100%; 
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: .5rem .8rem;
+}
+input{
+    width: 100%;
+}
+.form-btn{
+    color: #fff;
+    background: #8fc453;
+    border: none;
+    padding: .5rem;
+    border-radius: .3rem;
+    margin-top: 1rem;
+}
+.form-btn:disabled{
+    background: rgb(166, 166, 166);
+}
+.form-btn:disabled:hover{
+    background: rgb(110, 110, 110);
+}
+.form-btn:hover{
+    background: #76c021;
+}
+.hidden-link{
+    display: none;
+}
+@media (max-width: 450px){
+    html{
+        font-size: 75%;
+    }
+    .about-container p{
+        padding-bottom: 15px;
+    }
+    .hidden-link{
+        display: block;
+    }
+    .visible-link{
+        display: none;
+    }
+}
+@media (min-width: 450px){
+    .about-container{
+    padding: 25% 10% 0 45%;
+    text-align: justify;
+    }
+}
+html::-webkit-scrollbar{
+    width: .5rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    border-radius: 5rem;
+    background: #666;
+    height: 2rem;
+}
+.promo-container{
+    background: #fff;
+}
+.card-group{
+    width: 80%;
+}
+.card-text{
+    font-size: .8rem;
+}
+.card-body span{
+    font-size: .6rem;
+    color: #333;
+}
+.footer{
+    background: #333;
+}
